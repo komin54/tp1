@@ -1,9 +1,27 @@
 body {
     
-    background-color: url(fg.jpg);
+    background-image: url(bg.jpg.jpg);
     background-size: cover;
     background-position: center;
     font-family: arial, sans-serif;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+}
+
+.logo{
+    position: sticky;
+    width: 200px;
+    height: 150px;
+    right: 50px;
+}
+    
+h1 {
+    text-align: center;
+    color: white;
+}
+.biodata{
+    color: white;
+    text-align: left;
+    display: inline-block;
 }
