@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+
+
+h1{
+    font-size: 5px;
+    color: white;
+}
+#judul-pertama{
+    color:blue;
+}
+
+
+.judul-kedua{
+    color:green;
+}
+
+
+h2{
+    font-size: 10px;
+    color: red;
+    
+}
+
+
+h4, h5{
+    color: blueviolet;
+}
+
+
+ p{
+    color: orange;
+ }
+
+.kedua p, h1, h2, h4, h5{
+
+    color:white;
+    
+}
+
+
+
+   
