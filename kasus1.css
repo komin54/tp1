@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #fff;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #4CAF50;
+}
+
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+.profile-photo img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.skills {
+    max-width: 300px;
+    text-align: center
+}
+
+.skills h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center
+}
+
+.skills ul {
+    list-style-type: none;
+    line-height: 2;
+    text-align: center
+}
+
+.tentang {
+    max-width: 400px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.05); 
+    padding: 10px;
+    text-align: center;
+
+}
+
+.tentang h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.tentang p {
+    margin-bottom: 20px;
+}
