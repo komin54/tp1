@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(255, 253, 253);
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+}
+.box2 {
+    width:200px;
+    height: 200px;
+    background-color: magenta;
+    margin: 50px auto;
+}
+
+.box3 {
+    width:200px;
+    height: 200px;
+    background-color: rgb(131, 151, 15);
+    margin: 50px auto;
+}
+
+.container {
+    font-weight: bold;
+    color: darkorange;
+}
+
+.container p h1{
+    color: yellow;
+}
+.menu > li{
+    color: blue;
+    font-weight: bold;
+}
+#detail-produk{
+    color: aqua;
+}
+ #menu li{
+    color: burlywood;
+ }
+
+ .subindex{
+    color: darkolivegreen;
+ }
+
+ a:hover{
+    color: chartreuse;
+ }
+
+ a:link{
+    color: coral;
+ }
+ a:visited{
+    color: maroon;
+ }
+
+ a:active{
+    color: rgb(48, 255, 1);
+ }
