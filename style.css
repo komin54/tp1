@@ -1,27 +1,22 @@
 body {
-    
-    background-image: url(bg.jpg.jpg);
-    background-size: cover;
-    background-position: center;
-    font-family: arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
+    background-color: #f8f9fa; /* Warna latar belakang */
 }
 
-.logo{
-    position: sticky;
-    width: 200px;
-    height: 150px;
-    right: 50px;
+h2 {
+    margin-top: 30px; /* Jarak atas untuk judul */
+    margin-bottom: 20px; /* Jarak bawah untuk judul */
 }
-    
-h1 {
-    text-align: center;
-    color: white;
+
+.card {
+    margin-bottom: 20px; /* Jarak bawah untuk setiap kartu produk */
 }
-.biodata{
-    color: white;
-    text-align: left;
-    display: inline-block;
+
+.carousel-item img {
+    height: 400px; /* Tinggi gambar carousel */
+    object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+}
+
+.modal-body img {
+    max-width: 100%; /* Memastikan gambar modal responsif */
+    height: auto; /* Tinggi otomatis untuk menjaga proporsi */
 }
